@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         document.getElementById('edit_director').value = pelicula.director;
                         document.getElementById('edit_fecha_estreno').value = pelicula.fecha_estreno;
                         document.getElementById('edit_categoria_id').value = pelicula.categoria_id;
-                        document.getElementById('editPeliculaModal').querySelector('form').reset();
                         new bootstrap.Modal(document.getElementById('editPeliculaModal')).show();
                     });
 
